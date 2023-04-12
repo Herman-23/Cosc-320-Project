@@ -20,7 +20,7 @@ import java.util.Arrays;
                 //loops through all of the pieces of the tweet
                 for(int k = 0; k < tweets.length; k++){
                     if(arrOfAbbreviations[j].equals(tweets[k])){
-                        tweets[i] = arrOfNonAbbreviated[j];
+                        tweets[k] = arrOfNonAbbreviated[j];
 
                     }
                 
